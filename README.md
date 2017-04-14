@@ -2,12 +2,18 @@
 一个轻量级的menuPop
 可以通完 **IRMenuPopoverGlobal.h** 文件进行弹出框的圆角及其它的基本信息的设置，可以通过storyboard或masonry使用
 
+# 效果显示
+![效果图](http://
+7xrirn.com1.z0.glb.clouddn.com/IRMenuPopoverResultImage.gif)
+
 # 注意事项
 * 此项目依赖于Masonry，使用cocoapods
 请在引用此项目文件前导入 pod ‘Masonry’
 项目文件主要包括： **menuPopoverImages.bundle、UIView+LayoutMethods.h、UIView+LayoutMethods.m、IRMenuPopover.h、IRMenuPopover.m、IRMenuPopoverGlobal.h**
 
 # 使用
+通过此代理方法获取所选中的值 **menuPopover:didSelectMenuItemAtIndex:**
+
 需实现 **IRMenuPopoverDelegate** 的两个代理方法
 
 ## 使用方法1
