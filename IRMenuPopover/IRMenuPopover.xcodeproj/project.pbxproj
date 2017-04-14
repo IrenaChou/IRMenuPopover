@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77472C991EA0B44C006C0B96 /* menuPopoverImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77472C981EA0B44C006C0B96 /* menuPopoverImages.bundle */; };
+		77D722AA1E9F5764001D9BFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D722A91E9F5764001D9BFD /* main.m */; };
+		77D722AD1E9F5764001D9BFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D722AC1E9F5764001D9BFD /* AppDelegate.m */; };
+		77D722B01E9F5764001D9BFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D722AF1E9F5764001D9BFD /* ViewController.m */; };
+		77D722B31E9F5764001D9BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D722B11E9F5764001D9BFD /* Main.storyboard */; };
+		77D722B51E9F5764001D9BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D722B41E9F5764001D9BFD /* Assets.xcassets */; };
+		77D722B81E9F5764001D9BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D722B61E9F5764001D9BFD /* LaunchScreen.storyboard */; };
+		77D722C31E9F5764001D9BFD /* IRMenuPopoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D722C21E9F5764001D9BFD /* IRMenuPopoverTests.m */; };
+		77D722CE1E9F5764001D9BFD /* IRMenuPopoverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D722CD1E9F5764001D9BFD /* IRMenuPopoverUITests.m */; };
+		77D722E01E9F650A001D9BFD /* IRMenuPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D722DF1E9F650A001D9BFD /* IRMenuPopover.m */; };
+		77D722E31E9F6586001D9BFD /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D722E21E9F6586001D9BFD /* UIView+LayoutMethods.m */; };
+		9FD20DABE48F8EA5C902C1A6 /* libPods-IRMenuPopover.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0AB4FD11FD0BE1C904E21FC /* libPods-IRMenuPopover.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77D722BF1E9F5764001D9BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77D7229D1E9F5764001D9BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77D722A41E9F5764001D9BFD;
+			remoteInfo = IRMenuPopover;
+		};
+		77D722CA1E9F5764001D9BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77D7229D1E9F5764001D9BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77D722A41E9F5764001D9BFD;
+			remoteInfo = IRMenuPopover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3050727E6FDC2A07E15E7B10 /* Pods-IRMenuPopover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRMenuPopover.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IRMenuPopover/Pods-IRMenuPopover.debug.xcconfig"; sourceTree = "<group>"; };
+		77472C981EA0B44C006C0B96 /* menuPopoverImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = menuPopoverImages.bundle; sourceTree = "<group>"; };
+		77D722A51E9F5764001D9BFD /* IRMenuPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRMenuPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D722A91E9F5764001D9BFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77D722AB1E9F5764001D9BFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77D722AC1E9F5764001D9BFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77D722AE1E9F5764001D9BFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77D722AF1E9F5764001D9BFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77D722B21E9F5764001D9BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77D722B41E9F5764001D9BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77D722B71E9F5764001D9BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77D722B91E9F5764001D9BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D722BE1E9F5764001D9BFD /* IRMenuPopoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRMenuPopoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D722C21E9F5764001D9BFD /* IRMenuPopoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRMenuPopoverTests.m; sourceTree = "<group>"; };
+		77D722C41E9F5764001D9BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D722C91E9F5764001D9BFD /* IRMenuPopoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRMenuPopoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D722CD1E9F5764001D9BFD /* IRMenuPopoverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRMenuPopoverUITests.m; sourceTree = "<group>"; };
+		77D722CF1E9F5764001D9BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D722DE1E9F650A001D9BFD /* IRMenuPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRMenuPopover.h; sourceTree = "<group>"; };
+		77D722DF1E9F650A001D9BFD /* IRMenuPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRMenuPopover.m; sourceTree = "<group>"; };
+		77D722E11E9F6586001D9BFD /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		77D722E21E9F6586001D9BFD /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		77D722E41E9F65EC001D9BFD /* IRMenuPopoverGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRMenuPopoverGlobal.h; sourceTree = "<group>"; };
+		9DFE19E783156B230CE06BDE /* Pods-IRMenuPopover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRMenuPopover.release.xcconfig"; path = "Pods/Target Support Files/Pods-IRMenuPopover/Pods-IRMenuPopover.release.xcconfig"; sourceTree = "<group>"; };
+		F0AB4FD11FD0BE1C904E21FC /* libPods-IRMenuPopover.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IRMenuPopover.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77D722A21E9F5764001D9BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD20DABE48F8EA5C902C1A6 /* libPods-IRMenuPopover.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D722BB1E9F5764001D9BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D722C61E9F5764001D9BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D08F1D006A7A0D34C3EF245 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3050727E6FDC2A07E15E7B10 /* Pods-IRMenuPopover.debug.xcconfig */,
+				9DFE19E783156B230CE06BDE /* Pods-IRMenuPopover.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77D7229C1E9F5764001D9BFD = {
+			isa = PBXGroup;
+			children = (
+				77D722A71E9F5764001D9BFD /* IRMenuPopover */,
+				77D722C11E9F5764001D9BFD /* IRMenuPopoverTests */,
+				77D722CC1E9F5764001D9BFD /* IRMenuPopoverUITests */,
+				77D722A61E9F5764001D9BFD /* Products */,
+				4D08F1D006A7A0D34C3EF245 /* Pods */,
+				87982E24F198ABE41C9F3459 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77D722A61E9F5764001D9BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77D722A51E9F5764001D9BFD /* IRMenuPopover.app */,
+				77D722BE1E9F5764001D9BFD /* IRMenuPopoverTests.xctest */,
+				77D722C91E9F5764001D9BFD /* IRMenuPopoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77D722A71E9F5764001D9BFD /* IRMenuPopover */ = {
+			isa = PBXGroup;
+			children = (
+				77D722DD1E9F64D9001D9BFD /* menuPopver */,
+				77D722AB1E9F5764001D9BFD /* AppDelegate.h */,
+				77D722AC1E9F5764001D9BFD /* AppDelegate.m */,
+				77D722AE1E9F5764001D9BFD /* ViewController.h */,
+				77D722AF1E9F5764001D9BFD /* ViewController.m */,
+				77D722B11E9F5764001D9BFD /* Main.storyboard */,
+				77D722B41E9F5764001D9BFD /* Assets.xcassets */,
+				77D722B61E9F5764001D9BFD /* LaunchScreen.storyboard */,
+				77D722B91E9F5764001D9BFD /* Info.plist */,
+				77D722A81E9F5764001D9BFD /* Supporting Files */,
+			);
+			path = IRMenuPopover;
+			sourceTree = "<group>";
+		};
+		77D722A81E9F5764001D9BFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77D722A91E9F5764001D9BFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77D722C11E9F5764001D9BFD /* IRMenuPopoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				77D722C21E9F5764001D9BFD /* IRMenuPopoverTests.m */,
+				77D722C41E9F5764001D9BFD /* Info.plist */,
+			);
+			path = IRMenuPopoverTests;
+			sourceTree = "<group>";
+		};
+		77D722CC1E9F5764001D9BFD /* IRMenuPopoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77D722CD1E9F5764001D9BFD /* IRMenuPopoverUITests.m */,
+				77D722CF1E9F5764001D9BFD /* Info.plist */,
+			);
+			path = IRMenuPopoverUITests;
+			sourceTree = "<group>";
+		};
+		77D722DD1E9F64D9001D9BFD /* menuPopver */ = {
+			isa = PBXGroup;
+			children = (
+				77472C981EA0B44C006C0B96 /* menuPopoverImages.bundle */,
+				77D722E11E9F6586001D9BFD /* UIView+LayoutMethods.h */,
+				77D722E21E9F6586001D9BFD /* UIView+LayoutMethods.m */,
+				77D722DE1E9F650A001D9BFD /* IRMenuPopover.h */,
+				77D722DF1E9F650A001D9BFD /* IRMenuPopover.m */,
+				77D722E41E9F65EC001D9BFD /* IRMenuPopoverGlobal.h */,
+			);
+			path = menuPopver;
+			sourceTree = "<group>";
+		};
+		87982E24F198ABE41C9F3459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0AB4FD11FD0BE1C904E21FC /* libPods-IRMenuPopover.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77D722A41E9F5764001D9BFD /* IRMenuPopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D722D21E9F5764001D9BFD /* Build configuration list for PBXNativeTarget "IRMenuPopover" */;
+			buildPhases = (
+				D5F78D7773B102DC98582A72 /* [CP] Check Pods Manifest.lock */,
+				77D722A11E9F5764001D9BFD /* Sources */,
+				77D722A21E9F5764001D9BFD /* Frameworks */,
+				77D722A31E9F5764001D9BFD /* Resources */,
+				9B02D50B7D698E77F10B64A8 /* [CP] Embed Pods Frameworks */,
+				81D630F2CAC0615D39DE7432 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRMenuPopover;
+			productName = IRMenuPopover;
+			productReference = 77D722A51E9F5764001D9BFD /* IRMenuPopover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77D722BD1E9F5764001D9BFD /* IRMenuPopoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D722D51E9F5764001D9BFD /* Build configuration list for PBXNativeTarget "IRMenuPopoverTests" */;
+			buildPhases = (
+				77D722BA1E9F5764001D9BFD /* Sources */,
+				77D722BB1E9F5764001D9BFD /* Frameworks */,
+				77D722BC1E9F5764001D9BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77D722C01E9F5764001D9BFD /* PBXTargetDependency */,
+			);
+			name = IRMenuPopoverTests;
+			productName = IRMenuPopoverTests;
+			productReference = 77D722BE1E9F5764001D9BFD /* IRMenuPopoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77D722C81E9F5764001D9BFD /* IRMenuPopoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D722D81E9F5764001D9BFD /* Build configuration list for PBXNativeTarget "IRMenuPopoverUITests" */;
+			buildPhases = (
+				77D722C51E9F5764001D9BFD /* Sources */,
+				77D722C61E9F5764001D9BFD /* Frameworks */,
+				77D722C71E9F5764001D9BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77D722CB1E9F5764001D9BFD /* PBXTargetDependency */,
+			);
+			name = IRMenuPopoverUITests;
+			productName = IRMenuPopoverUITests;
+			productReference = 77D722C91E9F5764001D9BFD /* IRMenuPopoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77D7229D1E9F5764001D9BFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = irena;
+				TargetAttributes = {
+					77D722A41E9F5764001D9BFD = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					77D722BD1E9F5764001D9BFD = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 77D722A41E9F5764001D9BFD;
+					};
+					77D722C81E9F5764001D9BFD = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 77D722A41E9F5764001D9BFD;
+					};
+				};
+			};
+			buildConfigurationList = 77D722A01E9F5764001D9BFD /* Build configuration list for PBXProject "IRMenuPopover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77D7229C1E9F5764001D9BFD;
+			productRefGroup = 77D722A61E9F5764001D9BFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77D722A41E9F5764001D9BFD /* IRMenuPopover */,
+				77D722BD1E9F5764001D9BFD /* IRMenuPopoverTests */,
+				77D722C81E9F5764001D9BFD /* IRMenuPopoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77D722A31E9F5764001D9BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D722B81E9F5764001D9BFD /* LaunchScreen.storyboard in Resources */,
+				77D722B51E9F5764001D9BFD /* Assets.xcassets in Resources */,
+				77472C991EA0B44C006C0B96 /* menuPopoverImages.bundle in Resources */,
+				77D722B31E9F5764001D9BFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D722BC1E9F5764001D9BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D722C71E9F5764001D9BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81D630F2CAC0615D39DE7432 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IRMenuPopover/Pods-IRMenuPopover-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B02D50B7D698E77F10B64A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IRMenuPopover/Pods-IRMenuPopover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F78D7773B102DC98582A72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77D722A11E9F5764001D9BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D722B01E9F5764001D9BFD /* ViewController.m in Sources */,
+				77D722E31E9F6586001D9BFD /* UIView+LayoutMethods.m in Sources */,
+				77D722E01E9F650A001D9BFD /* IRMenuPopover.m in Sources */,
+				77D722AD1E9F5764001D9BFD /* AppDelegate.m in Sources */,
+				77D722AA1E9F5764001D9BFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D722BA1E9F5764001D9BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D722C31E9F5764001D9BFD /* IRMenuPopoverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D722C51E9F5764001D9BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D722CE1E9F5764001D9BFD /* IRMenuPopoverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77D722C01E9F5764001D9BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77D722A41E9F5764001D9BFD /* IRMenuPopover */;
+			targetProxy = 77D722BF1E9F5764001D9BFD /* PBXContainerItemProxy */;
+		};
+		77D722CB1E9F5764001D9BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77D722A41E9F5764001D9BFD /* IRMenuPopover */;
+			targetProxy = 77D722CA1E9F5764001D9BFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77D722B11E9F5764001D9BFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D722B21E9F5764001D9BFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77D722B61E9F5764001D9BFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D722B71E9F5764001D9BFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77D722D01E9F5764001D9BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77D722D11E9F5764001D9BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77D722D31E9F5764001D9BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3050727E6FDC2A07E15E7B10 /* Pods-IRMenuPopover.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IRMenuPopover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRMenuPopover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77D722D41E9F5764001D9BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFE19E783156B230CE06BDE /* Pods-IRMenuPopover.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IRMenuPopover/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRMenuPopover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77D722D61E9F5764001D9BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IRMenuPopoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRMenuPopoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IRMenuPopover.app/IRMenuPopover";
+			};
+			name = Debug;
+		};
+		77D722D71E9F5764001D9BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IRMenuPopoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRMenuPopoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IRMenuPopover.app/IRMenuPopover";
+			};
+			name = Release;
+		};
+		77D722D91E9F5764001D9BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IRMenuPopoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRMenuPopoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IRMenuPopover;
+			};
+			name = Debug;
+		};
+		77D722DA1E9F5764001D9BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IRMenuPopoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irena.IRMenuPopoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IRMenuPopover;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77D722A01E9F5764001D9BFD /* Build configuration list for PBXProject "IRMenuPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D722D01E9F5764001D9BFD /* Debug */,
+				77D722D11E9F5764001D9BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D722D21E9F5764001D9BFD /* Build configuration list for PBXNativeTarget "IRMenuPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D722D31E9F5764001D9BFD /* Debug */,
+				77D722D41E9F5764001D9BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D722D51E9F5764001D9BFD /* Build configuration list for PBXNativeTarget "IRMenuPopoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D722D61E9F5764001D9BFD /* Debug */,
+				77D722D71E9F5764001D9BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D722D81E9F5764001D9BFD /* Build configuration list for PBXNativeTarget "IRMenuPopoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D722D91E9F5764001D9BFD /* Debug */,
+				77D722DA1E9F5764001D9BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77D7229D1E9F5764001D9BFD /* Project object */;
+}
