@@ -3,8 +3,7 @@
 可以通完 **IRMenuPopoverGlobal.h** 文件进行弹出框的圆角及其它的基本信息的设置，可以通过storyboard或masonry使用
 
 # 效果显示
-![效果图](http://
-7xrirn.com1.z0.glb.clouddn.com/IRMenuPopoverResultImage.gif)
+![http://7xrirn.com1.z0.glb.clouddn.com/IRMenuPopoverResultImage.gif](效果图)
 
 # 注意事项
 * 此项目依赖于Masonry，使用cocoapods
