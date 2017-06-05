@@ -7,7 +7,7 @@ target 'IRMenuPopover' do
 
   # Pods for IRMenuPopover
 
-	pod ‘Masonry’ 
+	pod 'Masonry'
 
 
 end
