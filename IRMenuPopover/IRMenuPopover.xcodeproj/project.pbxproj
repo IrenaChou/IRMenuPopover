@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		77472C991EA0B44C006C0B96 /* menuPopoverImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77472C981EA0B44C006C0B96 /* menuPopoverImages.bundle */; };
+		77856EFA1EE560FE0040C01D /* IRItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77856EF91EE560FE0040C01D /* IRItemModel.m */; };
 		77D722AA1E9F5764001D9BFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D722A91E9F5764001D9BFD /* main.m */; };
 		77D722AD1E9F5764001D9BFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D722AC1E9F5764001D9BFD /* AppDelegate.m */; };
 		77D722B01E9F5764001D9BFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D722AF1E9F5764001D9BFD /* ViewController.m */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		3050727E6FDC2A07E15E7B10 /* Pods-IRMenuPopover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRMenuPopover.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IRMenuPopover/Pods-IRMenuPopover.debug.xcconfig"; sourceTree = "<group>"; };
 		77472C981EA0B44C006C0B96 /* menuPopoverImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = menuPopoverImages.bundle; sourceTree = "<group>"; };
+		77856EF81EE560FE0040C01D /* IRItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRItemModel.h; path = ../IRItemModel.h; sourceTree = "<group>"; };
+		77856EF91EE560FE0040C01D /* IRItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRItemModel.m; path = ../IRItemModel.m; sourceTree = "<group>"; };
 		77D722A51E9F5764001D9BFD /* IRMenuPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRMenuPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D722A91E9F5764001D9BFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77D722AB1E9F5764001D9BFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -169,6 +172,8 @@
 		77D722DD1E9F64D9001D9BFD /* menuPopver */ = {
 			isa = PBXGroup;
 			children = (
+				77856EF81EE560FE0040C01D /* IRItemModel.h */,
+				77856EF91EE560FE0040C01D /* IRItemModel.m */,
 				77472C981EA0B44C006C0B96 /* menuPopoverImages.bundle */,
 				77D722E11E9F6586001D9BFD /* UIView+LayoutMethods.h */,
 				77D722E21E9F6586001D9BFD /* UIView+LayoutMethods.m */,
@@ -375,6 +380,7 @@
 				77D722B01E9F5764001D9BFD /* ViewController.m in Sources */,
 				77D722E31E9F6586001D9BFD /* UIView+LayoutMethods.m in Sources */,
 				77D722E01E9F650A001D9BFD /* IRMenuPopover.m in Sources */,
+				77856EFA1EE560FE0040C01D /* IRItemModel.m in Sources */,
 				77D722AD1E9F5764001D9BFD /* AppDelegate.m in Sources */,
 				77D722AA1E9F5764001D9BFD /* main.m in Sources */,
 			);

@@ -151,8 +151,14 @@
     {
         [self addSeparatorImageToCell:cell];
     }
-    
-    cell.textLabel.text = [self.menuItems objectAtIndex:indexPath.row];
+//
+    if ([NSStringFromClass([self.menuItems.firstObject class]) isEqualToString:@"IRItemModel"] ) {
+        
+        cell.textLabel.text = [[self.menuItems objectAtIndex:indexPath.row] valueForKey:@"titleName"];
+    }else{
+        cell.textLabel.text = [self.menuItems objectAtIndex:indexPath.row];
+    }
+
     
     return cell;
 }

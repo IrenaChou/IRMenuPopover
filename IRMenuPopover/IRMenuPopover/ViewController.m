@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <Masonry.h>
 #import "IRMenuPopover.h"
+#import "IRItemModel.h"
 
 @interface ViewController ()<IRMenuPopoverDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *topLeftButton;
@@ -26,7 +27,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.menuSelectOption = @[@"医生",@"警察",@"农民",@"工人"];
+    IRItemModel *m1 = [IRItemModel itemWithTitleName:@"医生" value:@"1"];
+    IRItemModel *m2 = [IRItemModel itemWithTitleName:@"警察" value:@"2"];
+    IRItemModel *m3 = [IRItemModel itemWithTitleName:@"农民" value:@"3"];
+    IRItemModel *m4 = [IRItemModel itemWithTitleName:@"工人" value:@"4"];
+    
+    self.menuSelectOption = @[m1,m2,m3,m4];
     
 }
 
@@ -73,6 +79,8 @@
 
 - (void)menuPopover:(IRMenuPopover *)menuPopover didSelectMenuItemAtIndex:(NSInteger)selectedIndex{
     NSLog(@">>>>>>>>>>>didselect >>>>>>>>>%@",self.menuSelectOption[selectedIndex]);
+    IRItemModel *item = self.menuSelectOption[selectedIndex];
+    NSLog(@"%@=====%@",item.titleName,item.value);
 }
 
 - (void)hideMenuPopverWithMenuPopover:(IRMenuPopover *)menuPopover{
